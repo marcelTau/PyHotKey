@@ -15,3 +15,12 @@ sudo pip3 install -r requirements.txt
 sudo python3 main.py --help
 ```
 
+### Config file
+```
+Default path: ~/shortcut.cfg
+
+Pattern:
+key=replacement
+```
+It is important, that the file follows this pattern. Multiline replacements are currently not supported.
+
